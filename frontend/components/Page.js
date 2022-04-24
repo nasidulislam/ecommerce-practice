@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
+import Header from './Header';
 
 export default function Page({ children }) {
   return (
     <div>
-      <h2>I am the page header</h2>
+      <Header />
+      <h2>I am the Page component</h2>
       {children}
     </div>
   );
